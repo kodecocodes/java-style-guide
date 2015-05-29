@@ -16,6 +16,60 @@ style guides too.
 ## Table of Contents
 
 
+## Naming
+
+### Packages
+
+### Classes
+
+### Methods
+
+### Fields
+
+### Variables
+
+### Misc
+
+
+## Declarations
+
+### Classes
+
+### Enum Classes
+
+
+## Spacing
+
+### Indentation
+
+### Vertical Spacing
+
+### Line Length
+
+
+## Brace Style
+
+
+## Switch Statements
+
+
+## Annotations
+
+
+## Use of `final`
+
+
+## Copyright Statement
+
+
+## Smiley Face
+
+
 ## Credits
 
+This style guide is a collaborative effort from the most stylish
+raywenderlich.com team members:
+
+- [Sam Davies](github.com/sammyd)
+- ...
 
