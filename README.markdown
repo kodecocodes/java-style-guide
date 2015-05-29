@@ -16,19 +16,63 @@ style guides too.
 ## Table of Contents
 
 
-## Naming
+## Nomenclature
+
+On the whole, naming should follow Java standards.
 
 ### Packages
 
-### Classes
+Package names are all lower-case, multiple words concatenated together, without
+hypens or underscores:
+
+__BAD__:
+
+    com.RayWenderlich.funky_widget
+
+__GOOD__:
+
+    com.raywenderlich.funkywidget
+
+
+### Classes & Interfaces
+
+Written in UpperCamelCase. For example `RadialSlider`. 
 
 ### Methods
 
+Written in lowerCamelCase. For example `setValue`.
+
 ### Fields
 
-### Variables
+Written in lowerCamelCase.
+
+Static fields should be written in uppercase, with an underscore separating
+words:
+
+    public static final int THE_ANSWER = 42;
+
+
+### Variables & Parameters
+
+Written in lowerCamelCase.
+
+Single character values to be avoided except for temporary looping variables.
 
 ### Misc
+
+In code, acronyms should be treated as words. For example:
+
+__BAD:__
+
+    XMLHTTPRequest
+    String URL
+    findPostByID
+
+__GOOD:__
+
+    XmlHttpRequest
+    String url
+    findPostById
 
 
 ## Declarations
