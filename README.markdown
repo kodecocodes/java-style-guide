@@ -103,11 +103,38 @@ __GOOD:__
 ## Use of `final`
 
 
+## Language
+
+Use US English spelling.
+
+__BAD:__
+
+    String colour = "red";
+
+__GOOD:__
+
+    String color = "red";
+
+
 ## Copyright Statement
 
+??
 
 ## Smiley Face
+Smiley faces are a very prominent style feature of the raywenderlich.com site!
+It is very important to have the correct smile signifying the immense amount of
+happiness and excitement for the coding topic. The closing square bracket ] is
+used because it represents the largest smile able to be captured using ASCII
+art. A closing parenthesis ) creates a half-hearted smile, and thus is not
+preferred.
 
+Bad:
+
+    :)
+
+Good:
+
+    :]
 
 ## Credits
 
