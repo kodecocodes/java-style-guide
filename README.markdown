@@ -27,12 +27,15 @@ hypens or underscores:
 
 __BAD__:
 
-    com.RayWenderlich.funky_widget
+```java
+com.RayWenderlich.funky_widget
+```
 
 __GOOD__:
 
-    com.raywenderlich.funkywidget
-
+```java
+com.raywenderlich.funkywidget
+```
 
 ### Classes & Interfaces
 
@@ -49,8 +52,9 @@ Written in lowerCamelCase.
 Static fields should be written in uppercase, with an underscore separating
 words:
 
-    public static final int THE_ANSWER = 42;
-
+```java
+public static final int THE_ANSWER = 42;
+```
 
 ### Variables & Parameters
 
@@ -64,23 +68,51 @@ In code, acronyms should be treated as words. For example:
 
 __BAD:__
 
-    XMLHTTPRequest
-    String URL
-    findPostByID
-
+```java
+XMLHTTPRequest
+String URL
+findPostByID
+```
 __GOOD:__
 
-    XmlHttpRequest
-    String url
-    findPostById
-
+```java
+XmlHttpRequest
+String url
+findPostById
+```
 
 ## Declarations
 
+### Fields & Variables
+
+Prefer single declaration per line.
+
+__BAD:__
+
+```java
+String username, twitterHandle;
+```
+
+__GOOD:__
+
+```java
+String username;
+String twitterHandle;
+```
+
 ### Classes
+
+Exactly one class per source file, although inner classes are encouraged where
+scoping appropriate.
+
 
 ### Enum Classes
 
+Enum classes without methods may be formatted without line-breaks, as follows:
+
+```java
+private enum CompassDirection { EAST, NORTH, WEST, SOUTH }
+```
 
 ## Spacing
 
@@ -109,18 +141,22 @@ Use US English spelling.
 
 __BAD:__
 
-    String colour = "red";
+```java
+String colour = "red";
+```
 
 __GOOD:__
 
-    String color = "red";
-
+```java
+String color = "red";
+```
 
 ## Copyright Statement
 
 ??
 
 ## Smiley Face
+
 Smiley faces are a very prominent style feature of the raywenderlich.com site!
 It is very important to have the correct smile signifying the immense amount of
 happiness and excitement for the coding topic. The closing square bracket ] is
