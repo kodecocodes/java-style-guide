@@ -12,6 +12,15 @@ style guides too.
 
 ## Inspiration
 
+This style-guide is somewhat of a mash-up between the existing Java language
+style guides, and a tutorial-readability focused Swift style-guide. The language
+guidance is drawn from the
+[Android contributors style guide](https://source.android.com/source/code-style.html)
+and the
+[Google Java Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html).
+Alterations to support additional readability in tutorials were inspired by the
+[raywenderlich.com Swift style guide](https://github.com/raywenderlich/swift-style-guide).
+
 
 ## Table of Contents
 
