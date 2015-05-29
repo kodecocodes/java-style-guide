@@ -24,6 +24,29 @@ Alterations to support additional readability in tutorials were inspired by the
 
 ## Table of Contents
 
+- [Nomenclature](#nomenclature)
+  + [Packages](#packages)
+  + [Classes & Interfaces](#classes--interfaces)
+  + [Methods](#methods)
+  + [Fields](#fields)
+  + [Variables & Parameters](#variables--parameters)
+  + [Misc](#misc)
+- [Declarations](#declarations)
+  + [Fields & Variables](#fields--variables)
+  + [Classes](#classes)
+  + [Enum Classes](#enum-classes)
+- [Spacing](#spacing)
+  + [Indentation](#indentation)
+  + [Line Length](#line-length)
+  + [Vertical Spacing](#vertical-spacing)
+- [Brace Style](#brace-style)
+- [Switch Statements](#switch-statements)
+- [Annotations](#annotations)
+- [Language](#language)
+- [Copyright Statement](#copyright-statement)
+- [Smiley Face](#smiley-face)
+- [Credit](#credits)
+
 
 ## Nomenclature
 
