@@ -163,7 +163,7 @@ Indentation for blocks uses 2 spaces (not the default 4):
 __BAD:__
 
 ```java
-for (int i = 0; i<10; i++) {
+for (int i = 0; i < 10; i++) {
     Log.i(TAG, "index=" + i);
 }
 ```
@@ -171,7 +171,7 @@ for (int i = 0; i<10; i++) {
 __GOOD:__
 
 ```java
-for (int i = 0; i<10; i++) {
+for (int i = 0; i < 10; i++) {
   Log.i(TAG, "index=" + i);
 }
 ```
