@@ -109,6 +109,9 @@ public class MyClass {
 }
 ```
 
+> __Note:__ You can set Android Studio to follow this convention. See this SO
+> link for details http://stackoverflow.com/questions/22732722/intellij-android-studio-member-variable-prefix
+
 ### Variables & Parameters
 
 Written in __lowerCamelCase__.
