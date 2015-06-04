@@ -261,6 +261,14 @@ and organization. Whitespace within methods should separate functionality, but
 having too many sections in a method often means you should refactor into
 several methods.
 
+## Getters & Setters
+
+For external access to fields in classes, getters and setters are preferred to
+direct access of the fields. Fields should rarely be `public`.
+
+However, it is encouraged to use the field directly when accessing internally
+(i.e. from inside the class). This is a performance optimization recommended
+by Google: http://developer.android.com/training/articles/perf-tips.html#GettersSetters
 
 ## Brace Style
 
