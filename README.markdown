@@ -141,6 +141,10 @@ scoping appropriate.
 
 ### Enum Classes
 
+Enum classes should be avoided where possible, due to a large memory overhead.
+Static constants are preferred. See http://developer.android.com/training/articles/memory.html#Overhead
+for further details.
+
 Enum classes without methods may be formatted without line-breaks, as follows:
 
 ```java
