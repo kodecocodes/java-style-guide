@@ -32,6 +32,7 @@ Alterations to support additional readability in tutorials were inspired by the
   + [Variables & Parameters](#variables--parameters)
   + [Misc](#misc)
 - [Declarations](#declarations)
+  + [Access Level Modifiers](#access-level-modifiers)
   + [Fields & Variables](#fields--variables)
   + [Classes](#classes)
   + [Enum Classes](#enum-classes)
@@ -115,6 +116,11 @@ findPostById
 ```
 
 ## Declarations
+
+### Access Level Modifiers
+
+Access level modifiers should be explicitly defined for classes, methods and
+member variables.
 
 ### Fields & Variables
 
