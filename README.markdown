@@ -21,6 +21,29 @@ and the
 Alterations to support additional readability in tutorials were inspired by the
 [raywenderlich.com Swift style guide](https://github.com/raywenderlich/swift-style-guide).
 
+## Android Studio Coding Style
+
+It is possible to get Android Studio to adhere to these style guidelines, via
+a rather complex sequence of menus. To make it easier, we've provided a coding
+style that can be imported into Android Studio.
+
+Download [raywenderlich_com.xml](resources/raywenderlich_com.xml)
+and place it in `~/Library/Preferences/AndroidStudio1.2/codestyles`.
+
+> __NOTE:__ You need to update this location with the correct version of
+> Android Studio.
+
+Then, open Android Studio. To set this codestyle as the default, select
+__File > Other Settings > Default Settings...__:
+
+![Default Settings](resources/default_settings.png)
+
+In __Editor > Code Style__, choose the __Scheme__ to be __raywenderlich.com__:
+
+![Setting the Scheme](resources/setting_scheme.png)
+
+From now on, projects you create _should_ follow the correct style guidelines.
+
 
 ## Table of Contents
 
