@@ -347,7 +347,7 @@ __BAD:__
 
 ```java
 protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
+  super.onCreate(savedInstanceState);
 }
 ```
 
@@ -356,7 +356,7 @@ __GOOD:__
 ```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
+  super.onCreate(savedInstanceState);
 }
 ```
 
