@@ -90,6 +90,25 @@ words:
 public static final int THE_ANSWER = 42;
 ```
 
+As distasteful as it is, field naming should follow the Android source code
+naming conventions:
+
+- Non-public, non-static field names start with an `m`.
+- Static field names start with an `s`.
+
+For example:
+
+```java
+public class MyClass {
+  public static final int SOME_CONSTANT = 42;
+  public int publicField;
+  private static MyClass sSingleton;
+  int mPackagePrivate;
+  private int mPrivate;
+  protected int mProtected;
+}
+```
+
 ### Variables & Parameters
 
 Written in __lowerCamelCase__.
