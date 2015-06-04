@@ -63,6 +63,7 @@ From now on, projects you create _should_ follow the correct style guidelines.
   + [Indentation](#indentation)
   + [Line Length](#line-length)
   + [Vertical Spacing](#vertical-spacing)
+- [Getters & Setters](#getters--setters)
 - [Brace Style](#brace-style)
 - [Switch Statements](#switch-statements)
 - [Annotations](#annotations)
