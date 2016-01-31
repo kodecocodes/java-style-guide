@@ -27,8 +27,8 @@ It is possible to get Android Studio to adhere to these style guidelines, via
 a rather complex sequence of menus. To make it easier, we've provided a coding
 style that can be imported into Android Studio.
 
-Download [raywenderlich_com.xml](resources/raywenderlich_com.xml)
-and place it in `~/Library/Preferences/AndroidStudio1.2/codestyles`.
+Ensure Android Studio is not open then download [raywenderlich_com.xml](resources/raywenderlich_com.xml)
+and place it in `~/Library/Preferences/AndroidStudio1.2/codestyles`. You may need to create the codestyles folder yourself.
 
 > __NOTE:__ You need to update this location with the correct version of
 > Android Studio.
