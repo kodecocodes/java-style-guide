@@ -27,11 +27,7 @@ It is possible to get Android Studio to adhere to these style guidelines, via
 a rather complex sequence of menus. To make it easier, we've provided a coding
 style that can be imported into Android Studio.
 
-Download [raywenderlich_com.xml](resources/raywenderlich_com.xml)
-and place it in `~/Library/Preferences/AndroidStudio1.2/codestyles`.
-
-> __NOTE:__ You need to update this location with the correct version of
-> Android Studio.
+First, clone this repository and run `install.sh`.
 
 Then, open Android Studio. To set this codestyle as the default, select
 __File > Other Settings > Default Settings...__:
