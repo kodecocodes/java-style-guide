@@ -404,17 +404,17 @@ specific to XML.
 View-based XML files should be prefixed with the type of view that they
 represent.
 
-__GOOD:__
-
-- `activity_login.xml`
-- `fragment_main_screen.xml`
-- `button_rounded_edges.xml`
-
 __BAD:__
 
 - `login.xml`
 - `main_screen.xml`
 - `rounded_edges_button.xml`
+
+__GOOD:__
+
+- `activity_login.xml`
+- `fragment_main_screen.xml`
+- `button_rounded_edges.xml`
 
 ### Indentation
 
